@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+</head>
+<body>
+    <script>
+        let suma = window.prompt("Escribe una suma");
+        let signo = suma.indexOf('+');
+        let longitud = suma.length;
+       let digito1 = suma.substring(0,signo);
+       let digito2 = suma.substring(signo+1,longitud);
+       console.log("Los digitos son: " + digito1 + " y " + digito2)
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        let string = window.prompt("Escribe una palabra en minúscula");
+        let longitud = parseInt(string.length);
+        let stringMinus = string.substring(0,longitud/2);
+        let stringMayus = string.substring(longitud/2,longitud);
+        let mayuscula = stringMayus.toUpperCase()
+        console.log(stringMinus + mayuscula)
+    </script>
+</body>
+</html>
